@@ -16,3 +16,8 @@ for _ in range(4):
 
 screen = Screen()
 screen.exitonclick()
+
+
+import heroes
+
+print(heroes.gen())
